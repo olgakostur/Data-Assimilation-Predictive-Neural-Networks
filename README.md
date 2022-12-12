@@ -1,15 +1,11 @@
 # 🔥🔥🔥 Wildfire 🔥🔥🔥
 
-- Deadline: **Friday 25 March 2022, 16:00 GMT**
-
-## Assignment
-
-Your project should address two questions as specified in `assignment.pdf`:
+This project has two aims:
 
 1. **Prediction**: use a neural network to train a forecasting model
 2. **Correction**: perform data assimilation in a reduced space
 
-For each question (question 1 and question 2), submit all the code (`*.py` and/or `*.ipynb` files) and the values of computed MSE for each question in CSV (`q*.csv`) files.
+More detailed explanation of each aim can be found in assignement.pdf
 
 ## Data
 
@@ -25,53 +21,9 @@ For each question (question 1 and question 2), submit all the code (`*.py` and/o
     - `Ferguson_fire_obs`: Observation data at different days after ignition (only one trajectory)​
       - Source: https://drive.google.com/file/d/1pK7W082NEpS5rL7e5_MbHmY_51mliu9N/view?usp=sharing​
 
-## Code sustainability
-
-- Your should be in Python scripts (`*.py`) or Jupyter notebooks (`*.ipynb`).
-- Jupyter notebooks should be **well documented** with clear explanations.
-- All **dependencies** of your code should be specified in `requirements.txt`, and this `README.md` file should explain how to install the dependencies.
-- **Avoid code repetition**. If you are using the same code across multiple notebooks, expose it to Python scripts (`*.py`) and call it from Jupyter notebooks.
-- Any code exposed in a Python script, should be
-  - **documented** using docstrings and comments
-  - **tested** using unit tests
-- You should set up **continuous integration** using GitHub Actions to test your code.
-- This `README.md` file should be updated throughout your team's work.
-- Please ensure the **repository** is well structured, tidy, easy to navigate, and free of unnecessary files.
-
-## Presentation
-
-You should prepare and deliver a presentation explaining your results, design choices, etc.
-
-## Assessment
-
-Your project will be assessed for the following criteria:
-  1. Accuracy and performance of your models
-  2. Sustainability 
-    - Documentation (docstrings, Markdown text in Jupyter notebook, comments)
-    - Unit tests, including continuous integration
-  3. Presentation
-
-Additional marks will be awarded for code quality.
-
-## Daily performance test
-
-We will be comparing MSE values between teams on Tuesday, Wednesday, and Thursday. If you would like to find out how your MSE for either of the questions compares to other teams, please **submit two CSV files before 16:00 GMT** each day:
-- `q1.csv` (question 1)
-- `q2.csv` (question 2)
-
-The format of the CSV files should be:
-
-```
-mse,value
-```
-
-## Questions
-
-Please feel free to **ask questions on the General channel**.
 
 ## Installation Guide
 
-How can we install all the requirements necessary to run your code?
 
 Firstly, clone the repository:
 ```
@@ -103,7 +55,7 @@ pytest tools/tests/
 
 ## User instructions
 
-How is your repository structured and how can we run your code?
+How is repository structured and how to run the code?
 
 ### How is this repository structured?
 #### For Notebooks:
