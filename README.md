@@ -1,11 +1,11 @@
 # 🔥🔥🔥 Wildfire 🔥🔥🔥
 
-This project has two aims:
+This project was completed in a group of 5 students as part of Applications of Data Science module at Imperial College London for MSc Environmnetal Data Science & Machine Learning.  Detailed explanation of the project aim and structure can found in assignement.pdf. 
+
+The overall aims are:
 
 1. **Prediction**: use a neural network to train a forecasting model
 2. **Correction**: perform data assimilation in a reduced space
-
-More detailed explanation of each aim can be found in assignement.pdf
 
 ## Data
 
